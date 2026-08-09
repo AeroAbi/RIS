@@ -1,0 +1,11 @@
+                    How did we choose θ?
+                           ↓
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+   Closed-form        Exhaustive         Coordinate
+    solution            search             ascent
+        ↓                  ↓                  ↓
+   Mathematical       Try ALL phase       Optimize one
+    optimum            combinations       element at a time
+        ↓                  ↓                  ↓
+       SNR                SNR                SNR
