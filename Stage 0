@@ -1,0 +1,4 @@
+Setup: single BS (fixed position), single RIS (N reflecting elements), single user, all with simple antenna arrays.
+Channel: BS to RIS (h1), RIS to user (h2), generate as Rician fading 
+Received signal: y = (h2ᴴ · diag(θ) · h1) x + n, where θ = RIS phase vector.
+Computation: returns h1, h2, and computes SNR for a given θ.
