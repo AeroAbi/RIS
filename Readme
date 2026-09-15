@@ -17,5 +17,5 @@ conventional optimization: a supervised neural network learns to predict optimal
 state information, a reinforcement learning agent adapts phases in real time as the user moves and the channel changes,
 and an LSTM based predictor forecasts future optimal phases to compensate for feedback delay in tracking scenarios. 
 
-The overarching goal is to demonstrate that ML driven approaches can match or exceed classical optimization in achieved SNR/rate,
-adaptability to dynamic environments, and robustness to delay and noise, low latency RIS beamforming and tracking.
+The overarching goal is to demonstrate that ML driven approaches can match or exceed classical optimization in achieved 
+SNR/rate, adaptability to dynamic environments, and robustness to delay and noise, low latency RIS beamforming and tracking.
