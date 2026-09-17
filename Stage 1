@@ -1,0 +1,20 @@
+Stage 1: RIS Phase Optimization and Validation
+
+To find the best phase configuration for the RIS elements and verify that the closed form align_phases() method gives the optimal result. 
+
+Testing:
+1. Test different optimization methods
+Exhaustive Search: Tests all possible phase combinations to find the best one. It works for small RIS sizes but becomes very slow as the number of elements increases.
+Coordinate Ascent: Optimizes one RIS element at a time to improve the overall signal.
+Closed Form Alignment (`align_phases()`): Calculates the optimal phase for each RIS element directly using a mathematical formula.
+
+2. Compare the results
+Compare the SNR obtained from all three methods.
+Use smaller phase grids for larger RIS sizes to reduce computation time.
+Check whether the closed form method achieves the highest SNR.
+
+3. Analyze SNR and data rate
+Compare optimal phase alignment with random phases for different numbers of RIS elements (N).
+Plot SNR and data rate against N.
+Observe how increasing RIS elements improves signal strength and communication performance.
+
