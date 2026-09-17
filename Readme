@@ -13,8 +13,7 @@
 
 This project develops an end-to-end ML framework for RIS assisted beamforming in wireless communication systems.
 Starting from a baseline channel model and classical phase optimization techniques, using ML methods to replace and enhance
-conventional optimization: a supervised neural network learns to predict optimal RIS phase configurations directly from channel state information, a reinforcement learning agent adapts phases in real time as the user moves and the channel changes,
-and an LSTM based predictor forecasts future optimal phases to compensate for feedback delay in tracking scenarios. 
+conventional optimization: a supervised neural network learns to predict optimal RIS phase configurations directly from channel state information, a reinforcement learning agent adapts phases in real time as the user moves and the channel changes, and an LSTM based predictor forecasts future optimal phases to compensate for feedback delay in tracking scenarios. 
 
 The overarching goal is to demonstrate that ML driven approaches can match or exceed classical optimization in achieved 
 SNR/rate, adaptability to dynamic environments, and robustness to delay and noise, low latency RIS beamforming and tracking.
